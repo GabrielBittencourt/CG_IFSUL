@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN"
+  "http://www.web3d.org/specifications/x3d-3.3.dtd">
+<X3D version='3.3' profile='Interchange'>
+  <head>
+    <meta name='filename' content='bloco.x3d'/>
+  </head>
+  <Scene>
+  
+    <Transform translation='-3 3 0'> 	
+      <Shape>       
+        <Box size='1 1 1'/>    
+        <Appearance>
+          <Material diffuseColor='0.0 0.5 1.0'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+    <Transform translation='3 3 0'>  
+      <Shape>       
+        <Box size='1 1 1'/>    
+        <Appearance>
+          <Material diffuseColor='0.0 0.5 1.0'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+    <Transform translation='3 -3 0'>  
+      <Shape>       
+        <Box size='1 1 1'/>    
+        <Appearance>
+          <Material diffuseColor='0.0 0.5 1.0'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+    <Transform translation='-3 -3 0'>  
+      <Shape>       
+        <Box size='1 1 1'/>    
+        <Appearance>
+          <Material diffuseColor='0.0 0.5 1.0'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+      <!-- "RETAS" -->
+
+    <Transform translation='0 3 0'>  
+      <Shape>       
+        <Box size='5 0.6 0.6'/>    
+        <Appearance>
+          <Material diffuseColor='1 0 0'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+    <Transform translation='3 0 0'>  
+      <Shape>       
+        <Box size='0.6 5 0.6'/>    
+        <Appearance>
+          <Material diffuseColor='1 0 0'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+    <Transform translation='0 -3 0'>  
+      <Shape>       
+        <Box size='5 0.6 0.6'/>    
+        <Appearance>
+          <Material diffuseColor='1 0 0'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+    <Transform translation='-3 0 0'>  
+      <Shape>       
+        <Box size='0.6 5 0.6'/>    
+        <Appearance>
+          <Material diffuseColor='1 0 0'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+    <!-- PARTE 2 -->
+
+    <Transform translation='-3 3 5'>  
+      <Shape>       
+        <Box size='1 1 1'/>    
+        <Appearance>
+          <Material diffuseColor='0.0 0.5 1.0'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+    <Transform translation='3 3 5'>  
+      <Shape>       
+        <Box size='1 1 1'/>    
+        <Appearance>
+          <Material diffuseColor='0.0 0.5 1.0'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+    <Transform translation='3 -3 5'>  
+      <Shape>       
+        <Box size='1 1 1'/>    
+        <Appearance>
+          <Material diffuseColor='0.0 0.5 1.0'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+    <Transform translation='-3 -3 5'>  
+      <Shape>       
+        <Box size='1 1 1'/>    
+        <Appearance>
+          <Material diffuseColor='0.0 0.5 1.0'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+      <!-- "RETAS" -->
+
+    <Transform translation='0 3 5'>  
+      <Shape>       
+        <Box size='5 0.6 0.6'/>    
+        <Appearance>
+          <Material diffuseColor='1 0 0'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+    <Transform translation='3 0 5'>  
+      <Shape>       
+        <Box size='0.6 5 0.6'/>    
+        <Appearance>
+          <Material diffuseColor='1 0 0'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+    <Transform translation='0 -3 5'>  
+      <Shape>       
+        <Box size='5 0.6 0.6'/>    
+        <Appearance>
+          <Material diffuseColor='1 0 0'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+    <Transform translation='-3 0 5'>  
+      <Shape>       
+        <Box size='0.6 5 0.6'/>    
+        <Appearance>
+          <Material diffuseColor='1 0 0'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+    <!-- RETAS PARTE 2 -->
+
+    <Transform translation='3 3 2.5'>  
+      <Shape>       
+        <Box size='0.6 0.6 5'/>    
+        <Appearance>
+          <Material diffuseColor='1 0 0'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+    <Transform translation='-3 3 2.5'>  
+      <Shape>       
+        <Box size='0.6 0.6 5'/>    
+        <Appearance>
+          <Material diffuseColor='1 0 0'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+    <Transform translation='-3 -3 2.5'>  
+      <Shape>       
+        <Box size='0.6 0.6 5'/>    
+        <Appearance>
+          <Material diffuseColor='1 0 0'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+    <Transform translation='3 -3 2.5'>  
+      <Shape>       
+        <Box size='0.6 0.6 5'/>    
+        <Appearance>
+          <Material diffuseColor='1 0 0'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+       
+  </Scene>
+</X3D>
