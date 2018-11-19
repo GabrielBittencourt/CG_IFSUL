@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.2//EN" 
+"http://www.web3d.org/specifications/x3d3.0.dtd">
+<X3D version='3.3' profile='Immersive'>
+<Scene>
+<PositionInterpolator DEF='minhaTrajetoria' 
+keyValue='0  0  0,
+	2  0  0,
+2  0  2,
+5  0  2,
+5  3  2,
+5  3 -2,
+7  3 -2,
+7  6 -2,
+7  6 -5,
+0  6 -5,
+0  4 -5,
+0  4  0,
+0  0  0'
+key='0 0.083333333 0.166666666 0.249999999 0.333333332 0.416666665
+0.499999998 0.583333331 0.666666664 0.749999997 0.83333333 0.916666663 1'/>
+<TimeSensor DEF='meuRelogio'
+cycleInterval='10'
+loop='true'/>
+<Transform DEF='Tubos-1' translation='1 0 0' rotation='0 0 1 1.571'>
+<Shape>
+<Cylinder radius='0.2' height='2' />
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Tubos-2' translation='2 0 1' rotation='1 0 0 1.571'>
+<Shape>
+<Cylinder radius='0.2' height='2' />
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Tubos-3' translation='3.5 0 2' rotation='0 0 1 1.571'>
+<Shape>
+<Cylinder radius='0.2' height='3' />
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Tubos-4' translation='5 1.5 2'>
+<Shape>
+<Cylinder radius='0.2' height='3' />
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Tubos-5' translation='5 3 0' rotation='1 0 0 1.571'>
+<Shape>
+<Cylinder radius='0.2' height='4' />
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Tubos-6' translation='6 3 -2' rotation='0 0 1 1.571'>
+<Shape>
+<Cylinder radius='0.2' height='2' />
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Tubos-7' translation='7 4.5 -2'>
+<Shape>
+<Cylinder radius='0.2' height='3' />
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Tubos-8' translation='7 6 -3.5' rotation='1 0 0 1.571'>
+<Shape>
+<Cylinder radius='0.2' height='3' />
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Tubos-9' translation='3.5 6 -5' rotation='0 0 1 1.571'>
+<Shape>
+<Cylinder radius='0.2' height='7' />
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Tubos-10' translation='0 5 -5'>
+<Shape>
+<Cylinder radius='0.2' height='2' />
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Tubos-11' translation='0 4 -2.5' rotation='1 0 0 1.571'>
+<Shape>
+<Cylinder radius='0.2' height='5' />
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Tubos-12' translation='0 2 0'>
+<Shape>
+<Cylinder radius='0.2' height='4' />
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Rotula-1'>
+<Shape>
+<Sphere radius='0.2'/>
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Rotula-2' translation='2 0 0'>
+<Shape>
+<Sphere radius='0.2'/>
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Rotula-3' translation='2 0 2'>
+<Shape>
+<Sphere radius='0.2'/>
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Rotula-4' translation='5 0 2'>
+<Shape>
+<Sphere radius='0.2'/>
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Rotula-5' translation='5 3 2'>
+<Shape>
+<Sphere radius='0.2'/>
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Rotula-6' translation='5 3 -2'>
+<Shape>
+<Sphere radius='0.2'/>
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Rotula-7' translation='7 3 -2'>
+<Shape>
+<Sphere radius='0.2'/>
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Rotula-8' translation='7 6 -2'>
+<Shape>
+<Sphere radius='0.2'/>
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Rotula-9' translation='7 6 -5'>
+<Shape>
+<Sphere radius='0.2'/>
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Rotula-10' translation='0 6 -5'>
+<Shape>
+<Sphere radius='0.2'/>
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Rotula-11' translation='0 4 -5'>
+<Shape>
+<Sphere radius='0.2'/>
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='Rotula-12' translation='0 4 0'>
+<Shape>
+<Sphere radius='0.2'/>
+<Appearance>
+<Material diffuseColor='0 1 0' />
+</Appearance>
+</Shape>
+</Transform>
+<Transform DEF='minhaPosicao'>
+<Shape>
+<Sphere radius='0.4'/>
+<Appearance>
+<Material diffuseColor='1 0 0' />
+</Appearance>
+</Shape>
+</Transform>
+<ROUTE fromNode='meuRelogio'            
+fromField='fraction_changed' 
+toNode='minhaTrajetoria'     
+toField='set_fraction'/>
+<ROUTE fromNode='minhaTrajetoria'   
+fromField='value_changed'
+toNode='minhaPosicao'  
+toField='set_translation'/>
+</Scene>
+</X3D>
