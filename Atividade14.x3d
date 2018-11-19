@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN"
+  "http://www.web3d.org/specifications/x3d-3.3.dtd">
+<X3D version='3.3' profile='Interchange'>
+  <head>
+    <meta name='filename' content='bloco.x3d'/>
+  </head>
+  <Scene>
+  
+<!-- Bloco 1 -->
+    <Transform translation='-0.25 -0.5 1'> 	
+      <Shape>       
+        <Box size='40 10 35'/>    
+        <Appearance>
+          <Material diffuseColor='1 1 1'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+<!-- Bloco 2 -->
+    <Transform translation='-0.25 20 1'> 	
+      <Shape>       
+        <Box size='40 10 35'/>    
+        <Appearance>
+          <Material diffuseColor='1 1 1'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+
+<!-- Bloco 3 -->
+    <Transform translation='-0.25 14.5 26'> 	
+      <Shape>       
+        <Box size='40 40 15'/>    
+        <Appearance>
+          <Material diffuseColor='1 1 1'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+<!-- Bloco 4 -->
+    <Transform translation='-15.25 29.5 8.5'> 	
+      <Shape>       
+        <Box size='10 10 20'/>    
+        <Appearance>
+          <Material diffuseColor='1 1 1'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+<!-- Bloco 5 -->
+    <Transform translation='14.75 29.5 8.5'> 	
+      <Shape>       
+        <Box size='10 10 20'/>    
+        <Appearance>
+          <Material diffuseColor='1 1 1'/>
+        </Appearance>            
+      </Shape>        
+    </Transform> 
+
+
+
+
+
+       
+  </Scene>
+</X3D>
+
