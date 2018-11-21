@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.2//EN"
+"http://www.web3d.org/specifications/x3d3.0.dtd">
+
+<X3D version='3.3' profile='Immersive'>
+	<head>
+		<meta name='filename' content='atv17.x3d'/>
+	</head>
+	<Scene>
+				<ColorInterpolator DEF='animaLed1'
+					key='0 0.2 0.3 0.4 0.5 0.6 0.7 0.71 1'
+					keyValue=
+					'0 1 0,
+					 0 1 0, 
+					 0 0 0,
+					 0 0 0,
+					 0 0 0,
+					 0 0 0,
+					 0 0 0,
+					 1 0 0,
+					 1 0 0'/>
+
+				<ColorInterpolator DEF='animaLed2'
+					key='0 0.1 0.3 0.4 0.5 0.6 0.7 0.71 1'
+					keyValue=
+					'0 1 0, 
+					 0 1 0,
+					 0 1 0,
+					 0 0 0,
+					 0 0 0,
+					 0 0 0,
+					 0 0 0,
+					 1 0 0,
+					 1 0 0'/>
+
+				<ColorInterpolator DEF='animaLed3'
+					key='0 0.1 0.3 0.4 0.5 0.6 0.7 0.71 1'
+					keyValue=
+					'0 1 0, 
+					 0 1 0,
+					 0 1 0,
+					 0 1 0,
+					 0 0 0,
+					 0 0 0,
+					 0 0 0,
+					 1 0 0,
+					 1 0 0'/>
+				
+				<ColorInterpolator DEF='animaLed4'
+					key='0 0.1 0.3 0.4 0.5 0.6 0.7 0.71 1'
+					keyValue=
+					'0 1 0, 
+					 0 1 0,
+					 0 1 0,
+					 0 1 0,
+					 0 1 0,
+					 0 0 0,
+					 0 0 0,
+					 1 0 0,
+					 1 0 0'/>
+
+				<ColorInterpolator DEF='animaLed5'
+					key='0 0.1 0.3 0.4 0.5 0.6 0.7 0.71 1'
+					keyValue=
+					'0 1 0,
+					 0 1 0, 
+					 0 1 0,
+					 0 1 0,
+					 0 1 0,
+					 0 1 0,
+					 0 0 0,
+					 1 0 0,
+					 1 0 0'/>
+
+				<TimeSensor DEF='animaTempo' cycleInterval='15' loop='true' />
+
+				<Transform>
+					<Shape>
+						<Box size='3 6 1'/>
+						<Appearance>
+							<Material diffuseColor='0.75 0.75 0.75'/>
+						</Appearance>
+					</Shape>
+				</Transform>
+
+				<Transform translation='0 2.25 0.5'>
+					<Shape>
+						<Box size='2 0.5 0.5'/>
+						<Appearance>
+							<Material DEF='animaCorLed1' diffuseColor='0.25 0.25 0.25'/>
+						</Appearance>
+					</Shape>
+				</Transform>
+
+				<Transform translation='0 1.25 0.5'>
+					<Shape>
+						<Box size='2 0.5 0.5'/>
+						<Appearance>
+							<Material DEF='animaCorLed2' diffuseColor='0.25 0.25 0.25'/>
+						</Appearance>
+					</Shape>
+				</Transform>
+
+				<Transform translation='0 0.25 0.5'>
+					<Shape>
+						<Box size='2 0.5 0.5'/>
+						<Appearance>
+							<Material DEF='animaCorLed3' diffuseColor='0.25 0.25 0.25'/>
+						</Appearance>
+					</Shape>
+				</Transform>
+
+				<Transform translation='0 -0.75 0.5'>
+					<Shape>
+						<Box size='2 0.5 0.5'/>
+						<Appearance>
+							<Material DEF='animaCorLed4' diffuseColor='0.25 0.25 0.25'/>
+						</Appearance>
+					</Shape>
+				</Transform>
+
+				<Transform translation='0 -1.75 0.5'>
+					<Shape>
+						<Box size='2 0.5 0.5'/>
+						<Appearance>
+							<Material DEF='animaCorLed5' diffuseColor='0.25 0.25 0.25'/>
+						</Appearance>
+					</Shape>
+				</Transform>
+
+
+
+
+
+
+
+				<ROUTE 
+					fromNode='animaTempo' 
+					fromField='fraction_changed'
+					toNode='animaLed1' 
+					toField='set_fraction' 
+				/>
+
+				<ROUTE 
+					fromNode='animaLed1' 
+					fromField='value_changed'
+					toNode='animaCorLed1' 
+					toField='diffuseColor' 
+				/>
+
+
+
+
+
+
+
+
+				<ROUTE 
+					fromNode='animaTempo' 
+					fromField='fraction_changed'
+					toNode='animaLed2' 
+					toField='set_fraction' 
+				/>
+
+				<ROUTE 
+					fromNode='animaLed2' 
+					fromField='value_changed'
+					toNode='animaCorLed2' 
+					toField='diffuseColor' 
+				/>
+
+
+
+
+
+				<ROUTE 
+					fromNode='animaTempo' 
+					fromField='fraction_changed'
+					toNode='animaLed3' 
+					toField='set_fraction' 
+				/>
+
+				<ROUTE 
+					fromNode='animaLed3' 
+					fromField='value_changed'
+					toNode='animaCorLed3' 
+					toField='diffuseColor' 
+				/>
+
+
+
+
+
+				<ROUTE 
+					fromNode='animaTempo' 
+					fromField='fraction_changed'
+					toNode='animaLed4' 
+					toField='set_fraction' 
+				/>
+
+				<ROUTE 
+					fromNode='animaLed4' 
+					fromField='value_changed'
+					toNode='animaCorLed4' 
+					toField='diffuseColor' 
+				/>
+
+
+
+
+
+				<ROUTE 
+					fromNode='animaTempo' 
+					fromField='fraction_changed'
+					toNode='animaLed5' 
+					toField='set_fraction' 
+				/>
+
+				<ROUTE 
+					fromNode='animaLed5' 
+					fromField='value_changed'
+					toNode='animaCorLed5' 
+					toField='diffuseColor' 
+				/>
+
+
+
+				
+
+				
+	</Scene>
+</X3D>
