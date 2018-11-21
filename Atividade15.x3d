@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN"
+  "http://www.web3d.org/specifications/x3d-3.3.dtd">
+<X3D version='3.3' profile='Immersive'>
+<head>
+<meta name='filename' content='bloco.x3d'/>
+</head>
+<Scene>
+
+	<Transform> 
+		<Shape>       
+			<Box size='10 10 16'/>  
+			<Appearance>
+				<Material diffuseColor='0 1 0'/>
+			</Appearance>            
+		</Shape>        
+	</Transform> 
+
+	<Transform translation = "15.5 3 0"> 
+		<Shape>       
+			<Box size='21 16 16'/>  
+			<Appearance>
+				<Material diffuseColor='0 1 0'/>
+			</Appearance>            
+		</Shape>        
+	</Transform> 
+
+	<Transform translation = "28.2 1.5 0"> 
+		<Shape>       
+			<Box size='4.4 13 16'/>  
+			<Appearance>
+				<Material diffuseColor='0 1 0'/>
+			</Appearance>            
+		</Shape>        
+	</Transform> 
+
+	<Transform translation = "7.75 15.5 2"> 
+		<Shape>       
+			<Box size='5.5 9 12'/>  
+			<Appearance>
+				<Material diffuseColor='0 1 0'/>
+			</Appearance>            
+		</Shape>        
+	</Transform> 
+
+	<Transform translation = "23.25 15.5 2"> 
+		<Shape>       
+			<Box size='5.5 9 12'/>  
+			<Appearance>
+				<Material diffuseColor='0 1 0'/>
+			</Appearance>            
+		</Shape>        
+	</Transform>
+
+	<Transform translation = "15.5 15.5 -6"> 
+		<Shape>       
+			<Box size='21 9 4'/>  
+			<Appearance>
+				<Material diffuseColor='0 1 0'/>
+			</Appearance>            
+		</Shape>        
+	</Transform>
+
+
+	<Shape>
+		<IndexedFaceSet 
+			solid="false" 
+			coordIndex="0 1 2 3 ­-1">
+
+			<Coordinate point= "-5 5 8,
+								5 5 8,
+								5 17.5 -8,
+								-5 17.5 -8"/>
+		</IndexedFaceSet>
+		<Appearance>
+			<Material diffuseColor='0 1 0'/>
+		</Appearance>
+	</Shape>
+
+	<Shape>
+		<IndexedFaceSet 
+			solid="false" 
+			coordIndex="3 2 1 0 ­-1">
+
+			<Coordinate point= "5 17.5 -8,
+								-5 17.5 -8,
+								-5 5 -8,
+								5 5 -8"/>
+		</IndexedFaceSet>
+		<Appearance>
+			<Material diffuseColor='0 1 0'/>
+		</Appearance>
+	</Shape>
+
+	<Shape>
+		<IndexedFaceSet 
+			solid="false" 
+			coordIndex="2 1 0 ­-1">
+
+			<Coordinate point= "-5 17.5 -8,
+								-5 5 8,
+								-5 5 -8"/>
+		</IndexedFaceSet>
+		<Appearance>
+			<Material diffuseColor='0 1 0'/>
+		</Appearance>
+	</Shape>
+
+	<Transform translation = "15.5 0 0"> 
+		<Shape>
+			<IndexedFaceSet 
+				solid="false" 
+				coordIndex="0 1 2 3 ­-1">
+
+				<Coordinate point= "-5 11 8,
+									5 11 8,
+									5 20 -4,
+									-5 20 -4"/>
+			</IndexedFaceSet>
+			<Appearance>
+				<Material diffuseColor='0 1 0'/>
+			</Appearance>
+		</Shape>
+	</Transform>
+
+</Scene>
+</X3D>
